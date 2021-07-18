@@ -45,7 +45,7 @@ class ReviewsCarousel extends Component {
             <img
               className="reviewImage"
               src={reviewsData[i].imgUrl}
-              alt="userName-avatar"
+              alt={`${reviewsData[i].username}-avatar`}
             />
             <p className="user-name">{reviewsData[i].username}</p>
             <p>{reviewsData[i].companyName}</p>
